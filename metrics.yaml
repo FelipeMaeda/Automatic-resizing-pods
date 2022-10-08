@@ -1,0 +1,15 @@
+{
+  "kind": "PodMetrics",
+  "apiVersion": "metrics.k8s.io/v1beta1",
+  "metadata":
+    {
+      "name": "nginx-deployment-9b8568b6b-5zrzj",
+      "namespace": "app",
+      "creationTimestamp": "2022-10-08T06:53:28Z",
+      "labels": { "app": "nginx", "pod-template-hash": "9b8568b6b" },
+    },
+  "timestamp": "2022-10-08T06:53:23Z",
+  "window": "15.039s",
+  "containers":
+    [{ "name": "nginx", "usage": { "cpu": "0", "memory": "20588Ki" } }],
+}
